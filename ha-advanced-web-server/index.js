@@ -25,13 +25,13 @@ app.use(
       maxAge: 24 * 6 * 60 * 10000,
       sameSite: "None",
       httpOnly: true,
-      secure: true,
+      secure: false,
     },
   })
 );
 app.use(express.json());
 app.use(cors({
-  origin: "https://localhost:3000",
+  origin: "http://practice-react-deploys.s3-website.ap-northeast-2.amazonaws.com/",
   method: "GET, POST, OPTION",
   credentials: true,
 }));

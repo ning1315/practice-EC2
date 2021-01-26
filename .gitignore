@@ -5,8 +5,8 @@
 
 # production
 /build
-/**/.env
-key.pem
+# /**/.env
+# key.pem
 # misc
 .DS_Store
 .env.local
