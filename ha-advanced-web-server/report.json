@@ -1,0 +1,242 @@
+{
+  "stats": {
+    "suites": 9,
+    "tests": 16,
+    "passes": 16,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-01-25T07:04:24.360Z",
+    "end": "2021-01-25T07:04:24.571Z",
+    "duration": 211
+  },
+  "tests": [
+    {
+      "title": "Should connect to database",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Database Should connect to database",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have table `users` in database",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Database should have table `users` in database",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Server should use HTTPS protocol",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server Protocol - HTTP over Secure Server should use HTTPS protocol",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should respond 200 status code with user id to signin data",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signin it should respond 200 status code with user id to signin data",
+      "duration": 63,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should respond 404 status code with invalid user text",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signin it should respond 404 status code with invalid user text",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Cookie should have right Domain cookie option",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signin Cookie options Cookie should have right Domain cookie option",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Cookie should have right path cookie option",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signin Cookie options Cookie should have right path cookie option",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Cookie should have HttpOnly cookie option",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signin Cookie options Cookie should have HttpOnly cookie option",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Cookie should have Secure cookie option",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signin Cookie options Cookie should have Secure cookie option",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Cookie should have right SameSite cookie option",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signin Cookie options Cookie should have right SameSite cookie option",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should respond with 201 status code with user info to signup data",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signup it should respond with 201 status code with user info to signup data",
+      "duration": 15,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should respond with 409(conflict) status code with existing user email",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signup it should respond with 409(conflict) status code with existing user email",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should respond with 422(unprocessable entity) status code when any one of username, email, password, or mobile parameter is not supplied",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signup it should respond with 422(unprocessable entity) status code when any one of username, email, password, or mobile parameter is not supplied",
+      "duration": 18,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should respond with 205 status code",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signout it should respond with 205 status code",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should return user data with request of session.userid",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server GET /user it should return user data with request of session.userid",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should return Unauthorized if request without session.userid",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server GET /user it should return Unauthorized if request without session.userid",
+      "duration": 10,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "Should connect to database",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Database Should connect to database",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "should have table `users` in database",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Database should have table `users` in database",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Server should use HTTPS protocol",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server Protocol - HTTP over Secure Server should use HTTPS protocol",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should respond 200 status code with user id to signin data",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signin it should respond 200 status code with user id to signin data",
+      "duration": 63,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should respond 404 status code with invalid user text",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signin it should respond 404 status code with invalid user text",
+      "duration": 7,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Cookie should have right Domain cookie option",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signin Cookie options Cookie should have right Domain cookie option",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Cookie should have right path cookie option",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signin Cookie options Cookie should have right path cookie option",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Cookie should have HttpOnly cookie option",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signin Cookie options Cookie should have HttpOnly cookie option",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Cookie should have Secure cookie option",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signin Cookie options Cookie should have Secure cookie option",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "Cookie should have right SameSite cookie option",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signin Cookie options Cookie should have right SameSite cookie option",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should respond with 201 status code with user info to signup data",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signup it should respond with 201 status code with user info to signup data",
+      "duration": 15,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should respond with 409(conflict) status code with existing user email",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signup it should respond with 409(conflict) status code with existing user email",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should respond with 422(unprocessable entity) status code when any one of username, email, password, or mobile parameter is not supplied",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signup it should respond with 422(unprocessable entity) status code when any one of username, email, password, or mobile parameter is not supplied",
+      "duration": 18,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should respond with 205 status code",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server POST /signout it should respond with 205 status code",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should return user data with request of session.userid",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server GET /user it should return user data with request of session.userid",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "it should return Unauthorized if request without session.userid",
+      "fullTitle": "Advanced Web Hiring Assessments - Server Advanced Web Hiring Assessments - Server GET /user it should return Unauthorized if request without session.userid",
+      "duration": 10,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
