@@ -1,6 +1,4 @@
 const express = require("express");
-const https = require('https');
-const fs = require('fs');
 const cors = require('cors');
 const session = require('express-session');
 require("./models");
@@ -31,7 +29,7 @@ app.use(
 );
 app.use(express.json());
 app.use(cors({
-  origin: "http://practice-react-deploys.s3-website.ap-northeast-2.amazonaws.com/",
+  origin: "*",
   method: "GET, POST, OPTION",
   credentials: true,
 }));
@@ -43,14 +41,7 @@ app.post("/signout", mainController.signOutController);
 
 // TODO : http 프로토콜 대신 https 프로토콜을 사용하는 서버를 작성하세요.
 
-const server = https
-  .createServer(
-    {
-      key: fs.readFileSync('../key.pem', 'utf-8'),
-      cert: fs.readFileSync('../cert.pem', 'utf-8'),
-    },
-    app
-  )
-  .listen(port);
 
-  module.exports = server
+app.listen(port);
+
+  module.exports = app
